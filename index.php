@@ -7,7 +7,7 @@
  */
 
 // ── Configuration ──────────────────────────────────────
-$purchase_url = 'https://hop.clickbank.net/?affiliate=khalesai&vendor=citrusburn&pid=buy';
+$purchase_url = 'https://citrusburn.com/?hopId=ae69218f-6983-4fa7-90d9-f0ad709b33bf';
 $product_name = 'CitrusBurn™';
 $site_title = 'The 40+ Belly Fat Mystery — Why Healthy Women Suddenly Gain Weight';
 $byline_author = 'Wellness Desk';
