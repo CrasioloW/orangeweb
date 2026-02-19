@@ -35,6 +35,24 @@ $byline_label = 'Special Report';
     <!-- Preconnect for Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '33824746947141043');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=33824746947141043&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
 </head>
 
 <body>
@@ -93,19 +111,7 @@ $byline_label = 'Special Report';
         <!-- ── Hero Image Section ──────────────────────── -->
         <div class="hero-image-wrap fade-up">
             <div class="hero-gradient">
-                <img src="assets/bottle.png" alt="<?php echo $product_name; ?> bottle" class="hero-bottle"
-                    onerror="this.parentElement.querySelector('.bottle-placeholder').style.display='flex';this.style.display='none'">
-                <div class="bottle-placeholder"
-                    style="display:none;width:200px;height:320px;background:linear-gradient(135deg,#f5f5f5,#e0e0e0);border-radius:16px;align-items:center;justify-content:center;text-align:center;font-size:.85rem;color:#999;padding:20px;flex-direction:column;">
-                    <span style="font-size:3rem;margin-bottom:8px;">💊</span>
-                    Add bottle.png to assets/
-                </div>
-                <div class="hero-text-block">
-                    <h2>Finally — A Gentle Way to Support Your Body After 40</h2>
-                    <p>No harsh stimulants. No jitters. Just natural ingredients designed for women who want to feel
-                        like themselves again.</p>
-                    <span class="hero-badge">🛡️ 180-Day Money-Back Guarantee</span>
-                </div>
+                <img src="assets/before and after.png" alt="Before and after results with <?php echo $product_name; ?>" class="hero-before-after">
             </div>
         </div>
 
