@@ -286,5 +286,104 @@
         "ip": "::1",
         "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
         "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "page_view",
+        "answer": null,
+        "timestamp": "2026-02-21 15:59:12",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "quiz_start",
+        "answer": null,
+        "timestamp": "2026-02-21 15:59:15",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q1",
+        "answer": "B",
+        "timestamp": "2026-02-21 15:59:15",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q2",
+        "answer": "C",
+        "timestamp": "2026-02-21 15:59:17",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q3",
+        "answer": "A",
+        "timestamp": "2026-02-21 15:59:18",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q4",
+        "answer": "C",
+        "timestamp": "2026-02-21 15:59:20",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q5",
+        "answer": "A",
+        "timestamp": "2026-02-21 15:59:21",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q6",
+        "answer": "C",
+        "timestamp": "2026-02-21 15:59:22",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "q7",
+        "answer": "A",
+        "timestamp": "2026-02-21 15:59:24",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "analyzing",
+        "answer": null,
+        "timestamp": "2026-02-21 15:59:24",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
+    },
+    {
+        "visitor_id": "v_1771689322111_iwofbavax",
+        "event": "results",
+        "answer": null,
+        "timestamp": "2026-02-21 15:59:28",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36",
+        "referrer": ""
     }
 ]
