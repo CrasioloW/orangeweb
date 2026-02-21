@@ -18,7 +18,8 @@ $byline_label = 'Special Report';
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title><?php echo htmlspecialchars($site_title); ?></title>
     <meta name="description"
         content="Discover why women over 40 struggle with belly fat — and the gentle, stimulant-free approach that's finally helping them feel in control again.">
@@ -40,7 +41,7 @@ $byline_label = 'Special Report';
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
