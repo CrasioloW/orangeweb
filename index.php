@@ -7,7 +7,7 @@
  */
 
 // ── Configuration ──────────────────────────────────────
-$purchase_url = 'https://citrusburn.com/?hopId=ae69218f-6983-4fa7-90d9-f0ad709b33bf';
+$purchase_url = 'https://5e66f7uwtavwqla0vkyp4ayown.hop.clickbank.net';
 $product_name = 'CitrusBurn™';
 $site_title = 'The 40+ Belly Fat Mystery — Why Healthy Women Suddenly Gain Weight';
 $byline_author = 'Wellness Desk';
@@ -37,20 +37,22 @@ $byline_label = 'Special Report';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Meta Pixel Code -->
     <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '33824746947141043');
-    fbq('track', 'PageView');
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '33824746947141043');
+        fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=33824746947141043&ev=PageView&noscript=1"
-    /></noscript>
+            src="https://www.facebook.com/tr?id=33824746947141043&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 
 </head>
@@ -111,7 +113,8 @@ $byline_label = 'Special Report';
         <!-- ── Hero Image Section ──────────────────────── -->
         <div class="hero-image-wrap fade-up">
             <div class="hero-gradient">
-                <img src="assets/before and after.png" alt="Before and after results with <?php echo $product_name; ?>" class="hero-before-after">
+                <img src="assets/before and after.png" alt="Before and after results with <?php echo $product_name; ?>"
+                    class="hero-before-after">
             </div>
         </div>
 
@@ -307,7 +310,8 @@ $byline_label = 'Special Report';
                             </div>
                             <span class="stars">★★★★★</span>
                         </div>
-                        <blockquote>"I've tried everything for years — keto, fasting, those jittery pills. Nothing worked
+                        <blockquote>"I've tried everything for years — keto, fasting, those jittery pills. Nothing
+                            worked
                             long-term. With CitrusBurn I feel less bloated, my cravings are calmer, and I actually feel
                             GOOD. I'm not starving myself anymore."</blockquote>
                     </div>
@@ -320,7 +324,8 @@ $byline_label = 'Special Report';
                             </div>
                             <span class="stars">★★★★★</span>
                         </div>
-                        <blockquote>"I was so skeptical. But after the first two weeks, my jeans weren't as tight. The bloating
+                        <blockquote>"I was so skeptical. But after the first two weeks, my jeans weren't as tight. The
+                            bloating
                             went down. I just feel lighter. It's not a miracle — it's just… gentle. And that's what I
                             needed."</blockquote>
                     </div>
@@ -333,7 +338,8 @@ $byline_label = 'Special Report';
                             </div>
                             <span class="stars">★★★★★</span>
                         </div>
-                        <blockquote>"The 180-day guarantee made me try it. So glad I did. No jitters, no anxiety, no racing
+                        <blockquote>"The 180-day guarantee made me try it. So glad I did. No jitters, no anxiety, no
+                            racing
                             heart. Just more energy and way less snacking. I feel like myself again."</blockquote>
                     </div>
                 </div>
