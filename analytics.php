@@ -53,3 +53,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     echo file_get_contents($data_file);
     exit;
 }
+
+// Handle DELETE (reset all data)
+if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
+    if (file_exists($data_file)) {
+        unlink($data_file);
+    }
+    echo json_encode(['status' => 'reset']);
+    exit;
+}

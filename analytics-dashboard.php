@@ -460,6 +460,134 @@ foreach ($visitors as $vid => $vdata) {
             transform: translateY(-1px);
         }
 
+        .reset-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: transparent;
+            color: var(--red);
+            padding: 6px 16px;
+            border-radius: 8px;
+            font-family: 'Outfit', sans-serif;
+            font-size: .78rem;
+            font-weight: 600;
+            text-decoration: none;
+            border: 1px solid rgba(239, 68, 68, .3);
+            cursor: pointer;
+            transition: all .2s;
+            margin-left: 10px;
+        }
+
+        .reset-btn:hover {
+            background: var(--red-light);
+            border-color: var(--red);
+        }
+
+        /* Confirmation Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .6);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.visible {
+            display: flex;
+        }
+
+        .modal-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 36px;
+            max-width: 420px;
+            width: 90%;
+            text-align: center;
+            animation: fadeSlideIn .25s ease;
+        }
+
+        @keyframes fadeSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .modal-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 10px;
+        }
+
+        .modal-desc {
+            font-size: .88rem;
+            color: var(--text-soft);
+            margin-bottom: 28px;
+            line-height: 1.6;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .modal-cancel {
+            padding: 10px 28px;
+            border-radius: 10px;
+            font-family: 'Outfit', sans-serif;
+            font-size: .85rem;
+            font-weight: 600;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-soft);
+            cursor: pointer;
+            transition: all .2s;
+        }
+
+        .modal-cancel:hover {
+            background: rgba(255, 255, 255, .05);
+            color: var(--text);
+        }
+
+        .modal-confirm-delete {
+            padding: 10px 28px;
+            border-radius: 10px;
+            font-family: 'Outfit', sans-serif;
+            font-size: .85rem;
+            font-weight: 600;
+            border: none;
+            background: var(--red);
+            color: #fff;
+            cursor: pointer;
+            transition: all .2s;
+        }
+
+        .modal-confirm-delete:hover {
+            background: #dc2626;
+            transform: translateY(-1px);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
 
@@ -497,6 +625,7 @@ foreach ($visitors as $vid => $vdata) {
             <?php echo date('M j, Y — H:i'); ?> &nbsp;|&nbsp;
             <a href="analytics-dashboard.php" class="refresh-btn"
                 style="display:inline;padding:4px 12px;font-size:.75rem;">↻ Refresh</a>
+            <button class="reset-btn" onclick="showResetModal()">🗑 Reset Data</button>
         </div>
     </div>
 
@@ -680,6 +809,51 @@ foreach ($visitors as $vid => $vdata) {
         <?php endif; ?>
 
     </div>
+
+    <!-- Reset Confirmation Modal -->
+    <div class="modal-overlay" id="resetModal">
+        <div class="modal-box">
+            <span class="modal-icon">⚠️</span>
+            <div class="modal-title">Reset All Analytics Data?</div>
+            <p class="modal-desc">This will <strong>permanently delete</strong> all visitor data, funnel stats, and
+                event history. This action cannot be undone.</p>
+            <div class="modal-actions">
+                <button class="modal-cancel" onclick="hideResetModal()">Cancel</button>
+                <button class="modal-confirm-delete" onclick="confirmReset()">Yes, Delete Everything</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showResetModal() {
+            document.getElementById('resetModal').classList.add('visible');
+        }
+
+        function hideResetModal() {
+            document.getElementById('resetModal').classList.remove('visible');
+        }
+
+        // Close modal if clicking outside the box
+        document.getElementById('resetModal').addEventListener('click', function (e) {
+            if (e.target === this) hideResetModal();
+        });
+
+        function confirmReset() {
+            const btn = document.querySelector('.modal-confirm-delete');
+            btn.textContent = 'Deleting...';
+            btn.disabled = true;
+
+            fetch('analytics.php', { method: 'DELETE' })
+                .then(res => res.json())
+                .then(() => {
+                    window.location.reload();
+                })
+                .catch(() => {
+                    btn.textContent = 'Error — Try Again';
+                    btn.disabled = false;
+                });
+        }
+    </script>
 
 </body>
 

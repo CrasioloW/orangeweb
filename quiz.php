@@ -77,63 +77,75 @@ $product_name = 'CitrusBurn™';
                 <div class="reviews-ticker-track">
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"I was skeptical about another quiz, but the results were scarily accurate. Started CitrusBurn 3 weeks ago and I'm already down a pant size."</p>
+                        <p>"I was skeptical about another quiz, but the results were scarily accurate. Started
+                            CitrusBurn 3 weeks ago and I'm already down a pant size."</p>
                         <span class="ticker-author">— Karen T., 51 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"This quiz literally described my life. The bloating, the cravings, the Monday restarts. Tried the recommendation and haven't looked back."</p>
+                        <p>"This quiz literally described my life. The bloating, the cravings, the Monday restarts.
+                            Tried the recommendation and haven't looked back."</p>
                         <span class="ticker-author">— Michelle R., 46 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"Finally, something that actually explains WHY my body changed. Not just 'eat less and move more.' This felt personal."</p>
+                        <p>"Finally, something that actually explains WHY my body changed. Not just 'eat less and move
+                            more.' This felt personal."</p>
                         <span class="ticker-author">— Debra W., 54 · <em>Quiz Taker</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"My daughter sent me this quiz. Took it, got CitrusBurn, and now she wants to know my secret. 12 lbs down in 6 weeks 🙌"</p>
+                        <p>"My daughter sent me this quiz. Took it, got CitrusBurn, and now she wants to know my secret.
+                            12 lbs down in 6 weeks 🙌"</p>
                         <span class="ticker-author">— Patricia H., 49 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"The night cravings were ruining me. Since starting the formula from my results, I actually forget to snack. That NEVER happened before."</p>
+                        <p>"The night cravings were ruining me. Since starting the formula from my results, I actually
+                            forget to snack. That NEVER happened before."</p>
                         <span class="ticker-author">— Sandra L., 47 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"Woke up today and my jeans fit. Not tight-fit. FIT fit. Actual tears. Thank you for this quiz — it changed everything."</p>
+                        <p>"Woke up today and my jeans fit. Not tight-fit. FIT fit. Actual tears. Thank you for this
+                            quiz — it changed everything."</p>
                         <span class="ticker-author">— Linda M., 52 · <em>Verified Buyer</em></span>
                     </div>
                     <!-- Duplicated for seamless loop -->
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"I was skeptical about another quiz, but the results were scarily accurate. Started CitrusBurn 3 weeks ago and I'm already down a pant size."</p>
+                        <p>"I was skeptical about another quiz, but the results were scarily accurate. Started
+                            CitrusBurn 3 weeks ago and I'm already down a pant size."</p>
                         <span class="ticker-author">— Karen T., 51 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"This quiz literally described my life. The bloating, the cravings, the Monday restarts. Tried the recommendation and haven't looked back."</p>
+                        <p>"This quiz literally described my life. The bloating, the cravings, the Monday restarts.
+                            Tried the recommendation and haven't looked back."</p>
                         <span class="ticker-author">— Michelle R., 46 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"Finally, something that actually explains WHY my body changed. Not just 'eat less and move more.' This felt personal."</p>
+                        <p>"Finally, something that actually explains WHY my body changed. Not just 'eat less and move
+                            more.' This felt personal."</p>
                         <span class="ticker-author">— Debra W., 54 · <em>Quiz Taker</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"My daughter sent me this quiz. Took it, got CitrusBurn, and now she wants to know my secret. 12 lbs down in 6 weeks 🙌"</p>
+                        <p>"My daughter sent me this quiz. Took it, got CitrusBurn, and now she wants to know my secret.
+                            12 lbs down in 6 weeks 🙌"</p>
                         <span class="ticker-author">— Patricia H., 49 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"The night cravings were ruining me. Since starting the formula from my results, I actually forget to snack. That NEVER happened before."</p>
+                        <p>"The night cravings were ruining me. Since starting the formula from my results, I actually
+                            forget to snack. That NEVER happened before."</p>
                         <span class="ticker-author">— Sandra L., 47 · <em>Verified Buyer</em></span>
                     </div>
                     <div class="ticker-card">
                         <div class="ticker-stars">★★★★★</div>
-                        <p>"Woke up today and my jeans fit. Not tight-fit. FIT fit. Actual tears. Thank you for this quiz — it changed everything."</p>
+                        <p>"Woke up today and my jeans fit. Not tight-fit. FIT fit. Actual tears. Thank you for this
+                            quiz — it changed everything."</p>
                         <span class="ticker-author">— Linda M., 52 · <em>Verified Buyer</em></span>
                     </div>
                 </div>
@@ -399,6 +411,13 @@ $product_name = 'CitrusBurn™';
                 </div>
             </div>
 
+            <a href="<?php echo $purchase_url; ?>" class="results-cta-btn">
+                👉 See How
+                <?php echo $product_name; ?> Works For Your Profile
+            </a>
+            <span class="results-cta-sub"><span class="shield">🛡️</span> 180-Day Money-Back Guarantee • Risk Free •
+                Limited Stock</span>
+
             <div class="results-recommendation">
                 <h3>Our #1 Recommendation For Your Profile</h3>
                 <p>Based on your answers, you're a strong match for <strong>
@@ -419,49 +438,58 @@ $product_name = 'CitrusBurn™';
                 <div class="results-reviews-grid">
                     <div class="result-review-card">
                         <div class="rr-header">
-                            <div class="rr-avatar" style="background: linear-gradient(135deg, #f472b6, #ec4899);">JC</div>
+                            <div class="rr-avatar" style="background: linear-gradient(135deg, #f472b6, #ec4899);">JC
+                            </div>
                             <div class="rr-meta">
                                 <strong>Jennifer C., 48</strong>
                                 <span class="rr-verified">✓ Verified Purchase</span>
                             </div>
                             <span class="rr-stars">★★★★★</span>
                         </div>
-                        <p class="rr-text">"I scored 91% on this quiz and thought 'yeah right, another gimmick.' But I figured the guarantee made it risk-free, so why not. <strong>4 weeks later my husband asked what I was doing differently.</strong> The bloating is practically gone and I don't stand in front of the fridge at 9pm anymore. I feel like I got my old body's operating system back."</p>
+                        <p class="rr-text">"I scored 91% on this quiz and thought 'yeah right, another gimmick.' But I
+                            figured the guarantee made it risk-free, so why not. <strong>4 weeks later my husband asked
+                                what I was doing differently.</strong> The bloating is practically gone and I don't
+                            stand in front of the fridge at 9pm anymore. I feel like I got my old body's operating
+                            system back."</p>
                         <span class="rr-date">Reviewed 3 days ago</span>
                     </div>
                     <div class="result-review-card">
                         <div class="rr-header">
-                            <div class="rr-avatar" style="background: linear-gradient(135deg, #a78bfa, #8b5cf6);">BH</div>
+                            <div class="rr-avatar" style="background: linear-gradient(135deg, #a78bfa, #8b5cf6);">BH
+                            </div>
                             <div class="rr-meta">
                                 <strong>Barbara H., 55</strong>
                                 <span class="rr-verified">✓ Verified Purchase</span>
                             </div>
                             <span class="rr-stars">★★★★★</span>
                         </div>
-                        <p class="rr-text">"Every single answer in this quiz felt like someone had been reading my diary. The metabolic resistance thing — THAT'S what's been happening to me. <strong>I've tried keto, fasting, gym 4x a week… nothing moved the needle until this.</strong> Two months in, I'm wearing clothes I'd hidden in the back of my closet. No jitters, no weird side effects. Just… lighter."</p>
+                        <p class="rr-text">"Every single answer in this quiz felt like someone had been reading my
+                            diary. The metabolic resistance thing — THAT'S what's been happening to me. <strong>I've
+                                tried keto, fasting, gym 4x a week… nothing moved the needle until this.</strong> Two
+                            months in, I'm wearing clothes I'd hidden in the back of my closet. No jitters, no weird
+                            side effects. Just… lighter."</p>
                         <span class="rr-date">Reviewed 1 week ago</span>
                     </div>
                     <div class="result-review-card">
                         <div class="rr-header">
-                            <div class="rr-avatar" style="background: linear-gradient(135deg, #34d399, #10b981);">NP</div>
+                            <div class="rr-avatar" style="background: linear-gradient(135deg, #34d399, #10b981);">NP
+                            </div>
                             <div class="rr-meta">
                                 <strong>Nancy P., 43</strong>
                                 <span class="rr-verified">✓ Verified Purchase</span>
                             </div>
                             <span class="rr-stars">★★★★★</span>
                         </div>
-                        <p class="rr-text">"I'm a nurse, so I'm naturally skeptical of supplements. But the ingredients in CitrusBurn are all things I actually recognize and trust. <strong>The biggest change? I stopped obsessing over food.</strong> That constant 'food noise' in my head is finally quiet. Down 9 lbs in 5 weeks and my scrubs are loose for the first time in years."</p>
+                        <p class="rr-text">"I'm a nurse, so I'm naturally skeptical of supplements. But the ingredients
+                            in CitrusBurn are all things I actually recognize and trust. <strong>The biggest change? I
+                                stopped obsessing over food.</strong> That constant 'food noise' in my head is finally
+                            quiet. Down 9 lbs in 5 weeks and my scrubs are loose for the first time in years."</p>
                         <span class="rr-date">Reviewed 5 days ago</span>
                     </div>
                 </div>
             </div>
 
-            <a href="<?php echo $purchase_url; ?>" class="results-cta-btn">
-                👉 See How
-                <?php echo $product_name; ?> Works For Your Profile
-            </a>
-            <span class="results-cta-sub"><span class="shield">🛡️</span> 180-Day Money-Back Guarantee • Risk Free •
-                Limited Stock</span>
+
 
             <div class="results-social-proof">
                 <div class="sp-avatars">
