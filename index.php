@@ -7,7 +7,7 @@
  */
 
 // ── Configuration ──────────────────────────────────────
-$purchase_url = 'https://5e66f7uwtavwqla0vkyp4ayown.hop.clickbank.net';
+$purchase_url = 'track.php';
 $product_name = 'CitrusBurn™';
 $site_title = 'The 40+ Belly Fat Mystery — Why Healthy Women Suddenly Gain Weight';
 $byline_author = 'Wellness Desk';
